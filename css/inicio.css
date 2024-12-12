@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Gentium Book Basic', serif;
+    /* font-family: 'Kdam Thmor Pro', sans-serif; */
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Gentium Book Basic', serif;
+    /* font-family: 'Kdam Thmor Pro', sans-serif; */
+}
+
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+
+
+.imagen-1 {
+    width: 55rem;
+    margin: 1rem 2rem;
+    padding: 2rem;
+    border-radius: 5rem;
+
+
+}
+
+
+
+.texto-1 {
+    width: 50rem;
+    text-align: left;
+    padding: 4rem 2rem;
+    margin: 2rem 0rem 0rem 0rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0rem;
+}
+
+
+
+.texto1DeLaIntro{
+    /* border-style: ridge;
+    border-color: black; */
+    padding: 1rem 3rem;
+    flex-flow: row-reverse;
+    display: flex;
+    justify-content: space-between
+}
+
+/* ==================================================================================== */
+
+.imagen-2 {
+    width: 55rem;
+    margin: 3rem 2rem;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+
+.texto-2 {
+    width: 50rem;
+    text-align: left;
+    padding: 4rem 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0rem;
+}
+
+.texto2DeLaIntro {
+    /* border-style: ridge;
+    border-color: black; */
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between
+}
+
+/* =========================================================================================== */
+.texto-3 {
+    width: 70rem;
+    float: right;
+    text-align: left;
+    margin: 10rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7) ;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.BosqueQUemandose {
+    height: 50rem;
+    padding: 1rem 3rem;
+    margin: 1rem 0rem;
+    background-image: url(imagenes/quemando.jpg);
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+
+
+}
+
+/* =========================================================================================== */
+.imagen-4 {
+    width: 67rem;
+    /* height: 33.7rem; */
+    border-radius: 0rem;
+    float: left;
+    margin: -2rem 0rem 0rem -2rem;
+
+}
+
+.texto-4 {
+    width: 50rem;
+    text-align: left;
+    padding: 0rem 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0rem;
+    margin: 2rem 2rem;
+
+}
+
+.contaminacion {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* =========================================================================================== */
+.texto-5 {
+    width: 70rem;
+    float: left;
+    text-align: left;
+    padding: 2rem;
+    margin: 9rem 8rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2rem;
+    
+}
+
+.girasol {
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    margin: -1.1rem 0rem;
+
+    clear: both;
+    background-image: url(imagenes/girasolInicio.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+/* =========================================================================================== */
+
+
+.textoFinalDelInicio {
+    width: 60rem;
+    text-align: left;
+    margin: 0rem -0rem -5rem -0rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+
+
+}
+
+.finalinicio {
+    padding: 2rem 26rem;
+    margin: -3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    clear: both;
+
+}

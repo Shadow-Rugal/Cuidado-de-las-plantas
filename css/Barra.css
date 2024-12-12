@@ -1,0 +1,63 @@
+
+nav{
+    float: none; 
+    clear: both;
+    width: 100%; 
+    margin: 0% auto;
+    background: #d9d9d9;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li{
+      float: none; 
+    width: 100%;
+  }
+  
+  nav li a{
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
+    z-index: 2;
+    text-decoration: none;
+    color: #444;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+    font-size: 2rem
+    ;
+  }
+      
+  nav li a:hover{ border-bottom: 0px; color: rgb(255, 255, 255);}
+  nav li:first-child a{ border-left: 15px solid #000000; }
+  nav li:nth-child(2) a{ border-left: 15px solid #000000; }
+  nav li:nth-child(3) a{ border-left: 15px solid #000000; }
+  nav li:last-child a{ border-left: 15px solid #000000; }
+  
+  nav li a:after { 
+    content: "";
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    width: 0px;  
+    position: absolute; 
+    transition: all 0.6s ease 0s; 
+    -webkit-transition: all 0.6s ease 0s; 
+    z-index: -1;
+  }
+  
+  nav li a:hover:after{ width: 100%; }
+  nav li:first-child a:after{ background: url(imagenes/barraIMG/barra1.jpg);   background-size: cover; }
+  nav li:nth-child(2) a:after{ background: url(imagenes/barraIMG/barra2.jpg);   background-size: cover; }
+  nav li:nth-child(3) a:after{ background: url(imagenes/barraIMG/barra2.jpg);   background-size: cover; }
+  nav li:last-child a:after{ background-image: url(imagenes/barraIMG/barra3.jpg);   background-size: cover; }
+  

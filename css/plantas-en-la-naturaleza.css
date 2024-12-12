@@ -1,0 +1,480 @@
+.imagenL1 {
+    width: 55rem;
+    float: left;
+    margin: 0rem -5rem;
+    padding: 0.4rem 1.3rem 1rem;
+    /* height: 8rem; */
+    border-radius: 1rem 4rem 1rem 1rem;
+    height: 36.5rem;
+
+
+
+}
+
+.la-naturalesa-titulos {
+    width: 55rem;
+    float: left;
+    text-align: center;
+    margin: 7rem 5rem;
+    padding: 6rem 1rem;
+    font-size: 6rem;
+
+}
+
+.la-naturalesa-parte1 {
+    /* border-style: ridge;
+    border-color: black; */
+    height: 38rem;
+    padding: 1rem 3rem;
+    margin: 0.3rem 0.1rem;
+    max-width: 300rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* ------------------------------------------------------------------------------------ */
+.texto-7 {
+    width: 85rem;
+    float: right;
+    text-align: left;
+    margin: 9rem 8rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.la-naturalesa-parte2 {
+    height: 50rem;
+    padding: 1rem 3rem;
+    margin: -2rem 0rem;
+    background-image: url(imagenes/naturalesa2.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.texto-de-las-tres-1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    /* background:#225622 ; */
+    background-image: url(imagenes/fondoDelastres.jpg);
+    z-index: -1;
+    transition: transform .9s ease;
+    border-radius: 2rem;
+
+
+
+  }
+  
+  .texto-de-las-tres-1 {
+    position: relative;
+    font-size: 3rem;
+    width: 40rem;
+    text-align:left;
+    margin: 2rem 0rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    padding: 4rem 1rem;
+    height: 40rem;
+    border: 2px solid rgb(57, 65, 68);
+    border-radius: 2rem;
+
+  }
+  
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ============================= */
+.texto-de-las-tres-3::before {  
+    transform: scaleX(0);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-3:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-3::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    /* background:#225622 ; */
+    background-image: url(imagenes/cuidarplantas3.jpg);
+    z-index: -1;
+    transition: transform .9s ease;
+    border-radius: 2rem;
+
+
+
+  }
+  
+  .texto-de-las-tres-3 {
+    position: relative;
+    font-size: 3rem;
+    width: 40rem;
+    text-align:left;
+    margin: 2rem 0rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    padding: 4rem 1rem;
+    height: 40rem;
+    border: 2px solid rgb(57, 65, 68);
+    border-radius: 2rem;
+
+  }
+  
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ============================= */
+.texto-de-las-tres-2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom ;
+  }
+  
+  .texto-de-las-tres-2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    /* background:#225622 ; */
+    background-image: url(imagenes/fondoDelastres-2.jpg);
+    z-index: -1;
+    transition: transform .9s ease;
+    border-radius: 2rem;
+
+
+
+  }
+  
+  .texto-de-las-tres-2 {
+    position: relative;
+    font-size: 3rem;
+    width: 40rem;
+    text-align:left;
+    margin: 2rem 0rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    padding: 4rem 1rem;
+    height: 40rem;
+    border: 2px solid rgb(57, 65, 68);
+    border-radius: 2rem;
+
+  }
+  
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ============================= */
+
+.parte-de-tres {
+    margin: 2.3rem 0rem;
+    padding: 2rem 2 rem;
+}
+
+.seccion-de-tres {
+    margin: 2rem 0rem;
+    background-color: eee;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.texto-parte4 {
+    font-size: 2.2rem;
+}
+
+.texto-9 {
+    width: 90rem;
+    float: left;
+    text-align: left;
+    padding: 2rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+
+}
+
+.la-naturalesa-parte5 {
+    height: 56rem;
+    padding: 3rem 9rem;
+    margin: -2rem 0rem;
+    background-image: url(imagenes/abeja.jpg);
+    display: flex;
+    justify-content: space-between;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------------------------------ */
+.parte-de-cuatro {
+    height: 36rem;
+    margin: 2.3rem 0rem;
+}
+
+.texto-de-las-cuatro {
+    width: 35rem;
+    height: 29rem;
+    float: left;
+    text-align: left;
+    margin: 2rem 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    font-size: 1.5rem;
+    transition: all 0.9s;
+
+}
+
+.texto-de-las-cuatro:hover{
+    transform: scale(1.3);
+
+}
+
+
+.seccion-de-cuatro {
+    height: 0rem;
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.ImagenesDeLasCinco {
+    height: 22rem;
+    margin: 2.3rem 0rem;
+}
+
+.ImagenDeLasCintoNumero1 {
+    width: 35rem;
+    height: 25rem;
+    float: left;
+    margin: -7.5rem 3rem 0rem 3rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-image: url(imagenes/ARBUSTOFRUTAL.jpg);
+    background-size: cover;
+    transition: all 0.9s;
+
+
+
+
+}
+.ImagenDeLasCintoNumero1:hover{
+    transform: scale(1.2);
+
+}
+
+
+.ImagenDeLasCintoNumero2 {
+    width: 35rem;
+    height: 25rem;
+    float: left;
+    margin: -7.5rem 3rem 0rem 3rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-image: url(imagenes/FlorDeLoto.jpg);
+    background-size: cover;
+    transition: all 0.9s;
+
+}
+.ImagenDeLasCintoNumero2:hover{
+    transform: scale(1.3);
+
+}
+
+.ImagenDeLasCintoNumero3 {
+    width: 35rem;
+    height: 25rem;
+    float: left;
+    margin: -7.5rem 3rem 0rem 3rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-image: url(imagenes/PLANTABULBOSA.jpg);
+    background-size: cover;
+    transition: all 0.9s;
+
+}
+.ImagenDeLasCintoNumero3:hover{
+    transform: scale(1.3);
+
+}
+
+.ImagenDeLasCintoNumero4 {
+    width: 35rem;
+    height: 25rem;
+    float: left;
+    margin: -7.5rem 3rem 0rem 3rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-image: url(imagenes/PLANTADETEMPORADA.jpg);
+    background-size: cover;
+    transition: all 0.9s;
+
+}
+.ImagenDeLasCintoNumero4:hover{
+    transform: scale(1.3);
+
+}
+
+.ImagenDeLasCintoNumero5 {
+    width: 35rem;
+    height: 25rem;
+    float: left;
+    margin: -7.5rem 3rem 0rem 3rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    background-image: url(imagenes/PALMACEA.jpg);
+    background-size: cover;
+    transition: all 0.9s;
+
+}
+.ImagenDeLasCintoNumero5:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+
+.ImagenesDeLas5 {
+    height: 0rem;
+    margin: 0em 0rem 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+.ImagenAve1 {
+    width: 55rem;
+    margin: 3rem 2rem;
+    padding: 2rem;
+    border-radius: 81px 81px 81px 2px;
+
+}
+
+.texto-ave1 {
+    width: 58rem;
+    text-align: left;
+    padding: 4rem 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0rem;
+
+}
+
+
+.AvesEnLaNaturalesa {
+    /* border-style: ridge;
+    border-color: black; */
+    padding: 1rem 3rem;
+    flex-flow: row-reverse;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------------------------ */
+.ImagenCoala {
+    width: 50rem;
+    float: left;
+    margin: 4rem 2rem;
+    border-radius: 81px 0px 81px 80px;
+
+
+}
+
+.texto-coala {
+    width: 58rem;
+    float: right;
+    text-align: left;
+    margin: 3rem 4rem;
+    padding: 1rem 4rem;
+}
+
+.coalaEnLaNaturalesa {
+    /* border-style: ridge;
+    border-color: black; */
+    padding: 1rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------------------------ */
+.final-naturaleza {
+    width: 100rem;
+    float: left;
+    text-align: left;
+    padding: 3rem 4rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    margin: 4rem 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.imagenNaturalezaFinal {
+    margin: -2rem 0rem;
+    background-image: url(imagenes/final-naturaleza.jpg);
+    display: flex;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    justify-content: center;
+    margin: 1rem 0rem -10rem 0rem;
+
+
+}

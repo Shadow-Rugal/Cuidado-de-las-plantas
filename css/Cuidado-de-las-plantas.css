@@ -1,0 +1,435 @@
+
+ /* =========================================================================== */
+ .cuidar-las-plantas-titulos {
+     text-align: center;
+     color: rgb(0, 0, 0);
+     margin: 0rem 0rem -2.5rem 0rem;
+
+
+ }
+
+ .cuidar-las-plantas-parte-1 {
+     display: block;
+     justify-content: space-around;
+     height: 2rem;
+
+ }
+
+ /* =========================================================================== */
+ .CuidadoDeLasPlantasTexto1 {
+     width: 80rem;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     margin: 0rem 0rem 2.5rem 0rem;
+
+
+ }
+
+ .CuidadoDeLasPlantasParte1 {
+     display: flex;
+     justify-content: space-around;
+
+
+ }
+
+ /* =========================================================================== */
+ .imagenflor1 {
+     width: 30rem;
+     float: left;
+     margin: 2rem 0rem 2rem 12.5rem;
+     border-radius: 4rem 4rem 0px 0px;
+
+
+ }
+
+ .textodelaflorparteuno {
+     width: 50rem;
+     float: right;
+     text-align: left;
+     margin: 9rem 4rem;
+     padding: 1rem 4rem;
+ }
+
+ .CuidadoDeLasPlantasParte2 {
+     /* border-style: ridge;
+    border-color: black; */
+     padding: 1rem 3rem;
+
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* =========================================================================== */
+ .imagenflor2 {
+     width: 30rem;
+     float: left;
+     margin: 2rem 0rem 2rem 12.5rem;
+
+
+ }
+
+ .textodelaflorpartedos {
+     width: 50rem;
+     float: right;
+     text-align: left;
+     margin: 9rem 4rem;
+     padding: 1rem 4rem;
+ }
+
+ .CuidadoDeLasPlantasParte3 {
+     /* border-style: ridge;
+    border-color: black; */
+     padding: 1rem 3rem;
+     margin: -9rem 0rem;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* =========================================================================== */
+ .imagenflor3 {
+     width: 30rem;
+     float: left;
+     margin: 5rem 0rem 6rem 12.5rem;
+     border-radius: 0rem 0rem 4rem 4rem;
+     transform: rotate(0deg);
+
+
+
+ }
+
+ .textodelaflorpartetres {
+     width: 50rem;
+     float: right;
+     text-align: left;
+     margin: 9rem 4rem;
+     padding: 1rem 4rem;
+ }
+
+ .CuidadoDeLasPlantasParte4 {
+     /* border-style: ridge;
+    border-color: black; */
+     padding: 1rem 3rem;
+     margin: -9rem 0rem;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* =========================================================================== */
+ .CuidadoDeLasPlantasTexto2 {
+     width: 80rem;
+     float: right;
+     text-align: left;
+     margin: 2rem 2rem;
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.7);
+     border-radius: 2rem;
+     padding: 4rem 2rem;
+
+ }
+
+ .CuidadoDeLasPlantasParte5 {
+     height: 50rem;
+     padding: 1rem 4rem;
+     margin: 5rem 0rem 0rem;
+     background-image: url(imagenes/cuidarplantas2.jpg);
+     display: flex;
+     justify-content: space-between;
+     background-size: cover;
+     background-attachment: fixed;
+
+
+ }
+
+ /* =========================================================================== */
+ /* Parte Superior Del Collage */
+ /* ============================================================================== */
+ .ParteSuperior {
+     height: 15rem;
+     margin: 2.3rem 0rem;
+ }
+
+ .FotosCollageSuperior1 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 0rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/ImagenParteSuperior1.jpg);
+     padding: 1rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(-10deg);
+
+
+
+ }
+
+ .FotosCollageSuperior1:hover {
+
+     transform: rotate(0deg);
+
+
+ }
+
+ .FotosCollageSuperior2 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 1.5rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage6.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     transform: rotate(-6deg);
+
+ }
+
+ .FotosCollageSuperior2:hover {
+     transform: rotate(0deg);
+
+ }
+
+
+ .FotosCollageSuperior3 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: -1rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage4.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     transform: rotate(3deg);
+
+
+
+ }
+
+ .FotosCollageSuperior3:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .FotosCollageSuperior4 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 2rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage2.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(8deg);
+
+
+ }
+
+ .FotosCollageSuperior4:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .LasCuatroFotosDeLaParteSuperior {
+     height: 1rem;
+     margin: 0rem 0rem;
+     padding: 1rem;
+     background-color: fff;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ /* =========================================================================== */
+ /* Parte Central Del Collage */
+ /* ============================================================================== */
+
+ .FotosCollageCentral1 {
+     width: 33rem;
+     height: 20rem;
+     text-align: center;
+     margin: 13rem 0.5rem 1rem 1rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage7.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(8deg);
+     position: relative;
+
+
+ }
+
+ .FotosCollageCentral1:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .FotosCollageCentral2 {
+     width: 33rem;
+     height: 20rem;
+     text-align: center;
+     margin: 13rem 0.5rem 1rem 1rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage5.jpg);
+     padding: 1.8rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     transform: rotate(-7deg);
+     position: relative;
+     
+
+ }
+
+ .FotosCollageCentral2:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .TextoDelCollage {
+     width: 70rem;
+     
+     float: right;
+     text-align: left;
+     padding: 1rem 1rem;
+     margin: 6rem 0.5rem 1rem 1rem;
+     background-color:#eee;
+     position: relative;
+     color: rgb(0, 0, 0);
+     border-radius: 2rem;
+     transition: all 0.7s;
+     position: relative;
+     content: '';
+     z-index: 2
+ }
+
+ .TextoDelCollage:hover{
+    transform: scale(1.5);
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transform-origin: bottom ;
+    
+
+
+}
+
+ .ParteCentral {
+     margin: 0rem 0rem;
+     padding: 1rem;
+     background-color: fff;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ /* =========================================================================== */
+ /* Parte Inferior Del Collage */
+ /* ============================================================================== */
+
+ .Parteinferior {
+     height: 15rem;
+     margin: 2.3rem 0rem;
+ }
+
+ .FotosCollageinferior1 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 0rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage10.jpg);
+     padding: 1rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(10deg);
+
+
+
+ }
+
+ .FotosCollageinferior1:hover {
+
+     transform: rotate(0deg);
+
+
+ }
+
+ .FotosCollageinferior2 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 1.5rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage3.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(-8deg);
+
+
+ }
+
+ .FotosCollageinferior2:hover {
+     transform: rotate(0deg);
+
+ }
+
+
+ .FotosCollageinferior3 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: -1rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage9.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(8deg);
+
+
+
+ }
+
+ .FotosCollageinferior3:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .FotosCollageinferior4 {
+     width: 35rem;
+     height: 20rem;
+     text-align: center;
+     margin: 2rem 0.5rem;
+     color: rgb(255, 255, 255);
+     background-image: url(imagenes/imagencollage8.jpg);
+     padding: 2rem 0rem;
+     border-radius: 0.5rem;
+     background-size: cover;
+     font-size: 1.5rem;
+     transform: rotate(-12deg);
+
+
+ }
+
+ .FotosCollageinferior4:hover {
+     transform: rotate(0deg);
+
+ }
+
+ .LasCuatroFotosDeLaParteinferior {
+     height: 20rem;
+     margin: 2rem;
+     background-color: fff;
+     display: flex;
+     justify-content: center;
+
+ }
